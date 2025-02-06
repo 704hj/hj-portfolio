@@ -10,7 +10,7 @@ function App() {
         
       </header>
       <body>
-        웹 포트폴리오
+        웹 포트폴리오 
       </body>
     </div>
   );
