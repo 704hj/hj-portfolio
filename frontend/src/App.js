@@ -10,7 +10,7 @@ function App() {
         
       </header>
       <body>
-        xd
+        웹 포트폴리오
       </body>
     </div>
   );
