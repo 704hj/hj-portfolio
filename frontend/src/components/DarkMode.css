@@ -1,0 +1,18 @@
+.light-mode {
+    background-color: white;
+    color: black;
+    border:none;
+  }
+  
+  .dark-mode {
+    background-color: black;
+    color: white;
+    border:none;
+  }
+  
+  .dark-mode-toggle img {
+    width: 5px;    /* 이미지 크기 조정 */
+    height: 5px;
+    object-fit: contain; /* 비율 유지하면서 크기 맞추기 */
+    transition: transform 0.2s ease-in-out; /* 클릭 시 애니메이션 효과 */
+  }

@@ -1,4 +1,4 @@
-/* Home.css */
+/* src/pages/Home.css */
 .home-container {
   display: flex;
   height: 100vh;
@@ -14,12 +14,15 @@
   font-size: 1.5rem;
 }
 
+/* src/pages/Home.css */
 .image-container {
   position: absolute;
   right: 0;
-  width: 60%;
-  height: 100%;
-  background: url("/images/me.jpg") no-repeat center center/cover;
+  width: 60vw;
+  height: 60vw;
+  background-size: cover;
+ 
+  background-position: center;
 }
 
 
@@ -27,7 +30,7 @@
 .overlay {
   position: absolute;
   right: 0;
-  width: 60%;
-  height: 100%;
+  width: 60vw;
+  height: 60vw;
   background: rgba(255, 255, 255, 0.5); /* 흰색 반투명 */
 }

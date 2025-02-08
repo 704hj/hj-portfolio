@@ -1,9 +1,12 @@
 import React from "react";
-import "./Home.css"; // CSS 파일 불러오기
+import "./Home.css";
 
-function Home() {
+const Home = () => {
+  const backgroundImageUrl = `${process.env.PUBLIC_URL}/images/me.jpg`;
+
   return (
     <div className="home-container">
+      {/* 왼쪽 텍스트 */}
       <div className="text-box">
         <h1>Park Hyo joo</h1>
         <p>안녕하세요</p>
@@ -12,11 +15,10 @@ function Home() {
       </div>
 
       {/* 배경 이미지 & 뿌연 효과 */}
-      <div className="image-container" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/me.jpg)` }}
-      ></div>
+      <div className="image-container" style={{ backgroundImage: `url(${backgroundImageUrl})` }}></div>
       <div className="overlay"></div>
     </div>
   );
-}
+};
 
 export default Home;
