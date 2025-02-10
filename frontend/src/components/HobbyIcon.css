@@ -1,0 +1,23 @@
+.hobby-item {
+    text-align: center;
+    width: 150px;
+    padding: 10px;
+  }
+  
+  .hobby-image {
+    width: 60px;
+    height: 60px;
+    object-fit: contain; /* 비율 유지 */
+    margin-bottom: 10px;
+  }
+  
+  .hobby-item h3 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .hobby-item p {
+    font-size: 14px;
+    color: #555;
+  }
+  
