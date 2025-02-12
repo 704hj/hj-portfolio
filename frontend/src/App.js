@@ -3,6 +3,7 @@ import './App.css';
 import DarkMode from "./components/DarkMode";
 import Home from "./pages/Home"; 
 import AboutMe from './pages/AboutMe';
+import Project from './pages/Project';
 
 function App() {
   //로컬 스토리지에서 다크 모드 상태 불러오기
@@ -21,6 +22,7 @@ function App() {
       
       <Home />
       <AboutMe/>
+      <Project/>
     </div>
   );
 }
