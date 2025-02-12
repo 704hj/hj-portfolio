@@ -4,6 +4,7 @@ import DarkMode from "./components/DarkMode";
 import Home from "./pages/Home"; 
 import AboutMe from './pages/AboutMe';
 import Project from './pages/Project';
+import SideNav from "./components/Navbar/SideNav";
 
 function App() {
   //로컬 스토리지에서 다크 모드 상태 불러오기
@@ -19,10 +20,12 @@ function App() {
   return (
     <div className={darkMode ? "dark-mode" : "light-mode"}>
       <DarkMode darkMode={darkMode} setDarkMode={setDarkMode} />
-      
-      <Home />
-      <AboutMe/>
-      <Project/>
+      <SideNav />
+      <div className="main-content">
+        <section id="home"><Home /></section>
+        <section id="about"><AboutMe /></section>
+        <section id="project"><Project /></section>
+      </div>
     </div>
   );
 }
