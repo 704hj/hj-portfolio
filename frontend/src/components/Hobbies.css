@@ -1,47 +1,61 @@
-.hobby-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 50px; /* 요소 간 간격 */
-    max-width: 1000px;
+.hobbies-container {
+    text-align: center;
+    max-width: 80%;
     margin: 0 auto;
 }
 
+.hobbies-title {
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.hobbies-subtitle {
+    font-size: clamp(1rem, 2vw, 1.2rem);
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+/* 🔹 가로 3개씩 정렬되도록 설정 */
+.hobbies-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3개씩 배치 */
+    gap: clamp(20px, 5vw, 40px); /* 간격 조정 */
+    justify-content: center;
+    align-items: center;
+}
+
+/* 개별 아이템 스타일 */
 .hobby-item {
     text-align: center;
-    width: 200px; /* 아이템의 너비 */
-    padding: 20px;
+    padding: clamp(10px, 2vw, 20px);
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+/* 아이콘 스타일 */
 .hobby-icon {
-    width: 60px;  /* 아이콘 크기 */
-    height: 60px;
+    width: clamp(50px, 6vw, 70px);
+    height: clamp(50px, 6vw, 70px);
     background-color: #e5f0fa;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: clamp(5px, 1vw, 10px);
 }
 
-.hobby-icon img {
-    width: 40px; /* 아이콘 이미지 크기 */
-    height: 40px;
-    object-fit: contain;
+/* 반응형 설정 - 화면이 작아지면 2개씩 정렬 */
+@media (max-width: 768px) {
+    .hobbies-grid {
+        grid-template-columns: repeat(2, 1fr); /* 태블릿 이하에서는 2개씩 배치 */
+    }
 }
 
-.hobby-title {
-    font-weight: bold;
-    font-size: 1.2rem;
-    margin-bottom: 8px;
-}
-
-.hobby-description {
-    font-size: 0.9rem;
-    line-height: 1.4;
-    color: #555;
+/* 모바일에서는 한 줄에 하나씩 */
+@media (max-width: 480px) {
+    .hobbies-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }

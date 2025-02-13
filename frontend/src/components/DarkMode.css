@@ -12,7 +12,7 @@
   
 /* ✅ 버튼 스타일 */
 .dark-mode-toggle {
-    position: fixed;   /* 화면 상단 고정 */
+    position: fixed; 
     top: 20px;        /* 상단 여백 */
     left: 20px;       /* 좌측 여백 */
     background: none; /* 배경 없애기 */
@@ -24,7 +24,6 @@
     height: 50px;
   }
   
-  /* ✅ 이미지 크기 조정 */
   .dark-mode-toggle img {
     width: 100%;   /* 부모 요소(버튼)에 맞춤 */
     height: 100%;
@@ -34,7 +33,6 @@
     transition: transform 0.2s ease-in-out;
   }
   
-  /* ✅ 클릭 시 애니메이션 효과 */
   .dark-mode-toggle img:active {
     transform: scale(0.9); /* 클릭하면 살짝 줄어들었다가 원래대로 */
   }
