@@ -1,0 +1,39 @@
+import React, { useEffect } from "react";
+import $ from "jquery";
+
+const Wave = () => {
+  useEffect(() => {
+    let xs = [];
+    for (let i = 0; i <= 200; i++) {
+      xs.push(i);
+    }
+
+    let t = 0;
+
+    function animate() {
+      let points = xs.map(x => {
+        let y = 10 + 3 * Math.sin((x + t) / 4);
+        return [x, y];
+      });
+
+      let path = "M" + points.map(p => p[0] + "," + p[1]).join(" L");
+
+      $(".wave path").each(function () {
+        $(this).attr("d", path);
+      });
+
+      t += 0.1;
+      requestAnimationFrame(animate);
+    }
+
+    animate();
+  }, []);
+
+  return (
+    <svg className="wave" width="100%" height="50">
+      <path fill="none" stroke="black" strokeWidth="2" />
+    </svg>
+  );
+};
+
+export default Wave;

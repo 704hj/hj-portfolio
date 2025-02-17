@@ -16,16 +16,16 @@
     margin-bottom: 2rem;
 }
 
-/* 🔹 가로 3개씩 정렬되도록 설정 */
+
 .hobbies-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3개씩 배치 */
-    gap: clamp(20px, 5vw, 40px); /* 간격 조정 */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: clamp(20px, 5vw, 40px); 
     justify-content: center;
     align-items: center;
 }
 
-/* 개별 아이템 스타일 */
+
 .hobby-item {
     text-align: center;
     padding: clamp(10px, 2vw, 20px);
