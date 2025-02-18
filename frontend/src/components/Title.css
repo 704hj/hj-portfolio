@@ -1,6 +1,7 @@
 .section-title {
-    font-size: clamp(1rem, 10vw, 3rem);  
+  font-size: clamp(16px, 3.5vw, 32px);;  
     font-weight: bold;
     margin: 20px 0;
+    text-align: center;
   }
   

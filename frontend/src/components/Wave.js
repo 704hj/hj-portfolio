@@ -30,8 +30,8 @@ const Wave = () => {
   }, []);
 
   return (
-    <svg className="wave" width="100%" height="50">
-      <path fill="none" stroke="black" strokeWidth="2" />
+    <svg className="wave" width="100%" height="50" > 
+      <path fill="none" stroke="#7BD3EA" strokeWidth="2" />
     </svg>
   );
 };
