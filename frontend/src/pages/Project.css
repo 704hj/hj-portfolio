@@ -15,22 +15,26 @@
 .project-item {
   display: flex;
   align-items: center;
-  gap: 5vw; /* ✅ 반응형 여백 조절 */
+  gap: 5vw; 
   max-width: 90vw;
   margin: 0 auto;
   text-align: left;
   flex-wrap: wrap; 
+  padding:0 0 5% 0;
 }
 
 .project-image {
   position: relative;
-  width: 20vw;  
+  width: 25vw;  
   height: 20vw; 
-  max-width: 200px;
-  max-height: 200px;
+  max-width: 30vw;  
+  max-height: 25vw; 
   border-radius: 10px;
   overflow: hidden;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5vw;
 }
 
 .project-image video {
@@ -59,21 +63,19 @@
   opacity: 0.8;
 }
 
-
-/* ✅ 텍스트 영역 자동 확장 */
 .project-content {
   flex-grow: 1;
   min-width: 200px;
 }
 
-.project-content h3 {
-  font-size: clamp(16px, 2vw, 32px);
-  font-weight: bold;
+.project-content h3{
+  font-size: clamp(16px, 1.5vw, 24px);
   margin-bottom: 10px;
+
 }
 
-.project-content p {
-  font-size: clamp(0.9rem, 1.5vw, 1rem);
+.pj-desc {
+  font-size: clamp(12px, 1vw, 18px);
   margin-bottom: 10px;
 }
 
@@ -85,3 +87,4 @@
   font-size: clamp(0.8rem, 1.2vw, 0.9rem);
   line-height: 1.5;
 }
+

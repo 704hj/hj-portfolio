@@ -37,3 +37,6 @@
   }
 }
 
+.subtext {
+  white-space: pre-line; /* \n을 줄바꿈으로 인식 */
+}

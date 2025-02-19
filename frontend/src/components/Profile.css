@@ -1,0 +1,15 @@
+.profile-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7%;
+    padding:  7% 0;
+    margin: auto;
+}
+
+
+.profile-image{
+    width: 18.5vw;
+    height: 18vw;
+    border-radius: 50%;
+}

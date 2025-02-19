@@ -1,0 +1,15 @@
+.subtitle {
+    text-align: center; 
+    position: relative; 
+}
+
+.subtext {
+    font-size: clamp(12px, 1vw, 20px);  
+    margin-bottom: 5px;
+}
+
+.subtitle svg {
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
+}

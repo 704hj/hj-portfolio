@@ -23,7 +23,11 @@ const Project = () => {
     return (
         <div className="project-container">
             <Title title="Projects" />
-            <SubTitle text="직접 기획하고 개발한 프로젝트들을 소개합니다. 배운 것들과 필요한 것은 스스로 공부하여 구현하였습니다." />
+            <SubTitle text={<>
+                            <p>직접 기획하고 개발한 프로젝트들을 소개합니다.</p>
+                             <p>배운 것들과 필요한 것은 스스로 공부하여 구현하였습니다.</p>
+                            </>} />
+
 
             <div className="project-list">
                 <ul>
@@ -32,7 +36,7 @@ const Project = () => {
                         <div className="project-image"></div>
                         <div className="project-content">
                             <h3>React 기반의 웹 포트폴리오</h3>
-                            <p>React의 컴포넌트 구조를 이해하여 웹 포트폴리오를 제작했습니다.</p>
+                            <p className="pj-desc">React의 컴포넌트 구조를 이해하여 웹 포트폴리오를 제작했습니다.</p>
                             <ul>
                                 <li>useState & useEffect를 활용한 다크 모드 상태 관리</li>
                                 <li>localStorage를 사용하여 다크 모드 설정 저장 및 유지</li>
@@ -52,7 +56,7 @@ const Project = () => {
                         </div>
                         <div className="project-content">
                             <h3>Deeply</h3>
-                            <p>아티스트와 팬이 소통하며 유대감을 형성하는 커뮤니티 플랫폼 개발</p>
+                            <p className="pj-desc">아티스트와 팬이 소통하며 유대감을 형성하는 커뮤니티 플랫폼 개발</p>
                             <ul>
                                 <li>그룹별 콘텐츠 및 상품 관리 기능 제공</li>
                                 <li>팬덤 맞춤형 서비스 제공</li>
@@ -71,8 +75,8 @@ const Project = () => {
                             {!isPlaying[1] && <div className="play-overlay">▶</div>}
                         </div>
                         <div className="project-content">
-                            <h3>꼬박꼬박</h3>
-                            <p>시간 관리와 작은 도전을 통해 건강한 습관 형성을 지원하는 플랫폼 개발</p>
+                        <h3>꼬박꼬박</h3>
+                            <p className="pj-desc">시간 관리와 작은 도전을 통해 건강한 습관 형성을 지원하는 플랫폼 개발</p>
                             <ul>
                                 <li>도전 기록 및 목표 공유로 상호 동기부여 유도</li>
                                 <li>지속적인 습관 형성을 위한 리워드 시스템 제공</li>
