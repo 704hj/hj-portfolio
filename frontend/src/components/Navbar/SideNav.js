@@ -40,6 +40,6 @@ const SideNav = ({ darkMode }) => {
       </ul>
     </nav>
   );
-};
+}; 
 
 export default SideNav;

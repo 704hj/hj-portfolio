@@ -51,7 +51,7 @@ const Project = () => {
                             <video ref={videoRefs[0]} controls={false}>
                                 <source src={`${process.env.PUBLIC_URL}/videos/pj2.mp4`} type="video/mp4" />
                                 브라우저가 비디오를 지원하지 않습니다.
-                            </video>
+                            </video> 
                             {!isPlaying[0] && <div className="play-overlay">▶</div>}
                         </div>
                         <div className="project-content">

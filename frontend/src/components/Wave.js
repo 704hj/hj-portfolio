@@ -25,7 +25,7 @@ const Wave = () => {
       t += 0.1;
       requestAnimationFrame(animate);
     }
-
+ 
     animate();
   }, []);
 

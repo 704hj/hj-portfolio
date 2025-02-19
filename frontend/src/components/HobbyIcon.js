@@ -13,3 +13,4 @@ const HobbyIcon = ({ image, title, description }) => {
   
   export default HobbyIcon;
 
+ 

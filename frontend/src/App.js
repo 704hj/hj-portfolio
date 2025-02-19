@@ -16,7 +16,7 @@ function App() {
   useEffect(() => {
     localStorage.setItem("darkMode", JSON.stringify(darkMode));
   }, [darkMode]);
-
+ 
   return (
     <div className={darkMode ? "dark-mode" : "light-mode"}>
       <DarkMode darkMode={darkMode} setDarkMode={setDarkMode} />

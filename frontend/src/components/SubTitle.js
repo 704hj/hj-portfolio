@@ -12,3 +12,4 @@ const SubTitle = ({ text }) => {
 };
 
 export default SubTitle;
+ 
