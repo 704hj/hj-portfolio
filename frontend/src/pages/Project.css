@@ -65,6 +65,7 @@
 .project-content {
   flex-grow: 1;
   min-width: 200px;
+  
 }
 
 .project-content h3{
@@ -72,6 +73,19 @@
   margin-bottom: 10px;
 
 }
+
+.project-content a {
+  text-decoration: none; 
+  color: inherit; 
+  font-weight: bold;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.project-content a:hover {
+  color: #7BD3EA;
+}
+
 
 .pj-desc {
   font-size: clamp(12px, 1vw, 18px);

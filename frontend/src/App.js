@@ -6,6 +6,7 @@ import AboutMe from "./pages/AboutMe";
 import Skills from "./pages/Skill";
 import Project from "./pages/Project";
 import SideNav from "./components/Navbar/SideNav"; //SideNav에도 다크 모드 전달
+import Footer from "./components/Footer/Footer";
 
 function App() {
   // 로컬 스토리지에서 다크 모드 상태 불러오기
@@ -27,6 +28,7 @@ function App() {
         <section id="about"><AboutMe /></section>
         <section id="skills"><Skills /></section>
         <section id="project"><Project /></section>
+        <section id="footer"><Footer /></section>
       </div>
     </div>
   );

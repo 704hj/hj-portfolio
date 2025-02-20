@@ -165,7 +165,7 @@ const devTools = [
 const Skills = () => {
   return (
     <div id="skills">
-      <Title title="My Development Toolkit" />
+      <Title title="My Toolkit" />
       <SubTitle
         text={
           <>
