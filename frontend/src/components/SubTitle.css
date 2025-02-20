@@ -4,7 +4,7 @@
 }
 
 .subtext {
-    font-size: clamp(12px, 1vw, 20px);  
+    font-size: clamp(12px, 1.1vw, 20px);  
     margin-bottom: 5px;
 }
 
@@ -13,4 +13,10 @@
     height: auto;
     margin-top: 10px;
 }
- 
+
+.skill-icon{
+    width: 10vw;
+    height: 10vw;
+    min-width: 25px;
+    min-height: 25px;
+}

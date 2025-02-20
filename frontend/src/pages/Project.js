@@ -33,9 +33,15 @@ const Project = () => {
                 <ul>
                     {/* ✅ 첫 번째 프로젝트 */}
                     <li className="project-item">
-                        <div className="project-image"></div>
+                    <div className="project-image" onClick={() => handleVideoClick(0)}>
+                            <video ref={videoRefs[0]} controls={false}>
+                                <source src={`${process.env.PUBLIC_URL}/videos/pj1.mp4`} type="video/mp4" />
+                                브라우저가 비디오를 지원하지 않습니다.
+                            </video> 
+                            {!isPlaying[0] && <div className="play-overlay">▶</div>}
+                        </div>
                         <div className="project-content">
-                            <h3>React 기반의 웹 포트폴리오</h3>
+                            <h3>💡React 기반의 웹 포트폴리오</h3>
                             <p className="pj-desc">React의 컴포넌트 구조를 이해하여 웹 포트폴리오를 제작했습니다.</p>
                             <ul>
                                 <li>useState & useEffect를 활용한 다크 모드 상태 관리</li>
@@ -55,7 +61,7 @@ const Project = () => {
                             {!isPlaying[0] && <div className="play-overlay">▶</div>}
                         </div>
                         <div className="project-content">
-                            <h3>Deeply</h3>
+                            <h3>💡Deeply</h3>
                             <p className="pj-desc">아티스트와 팬이 소통하며 유대감을 형성하는 커뮤니티 플랫폼 개발</p>
                             <ul>
                                 <li>그룹별 콘텐츠 및 상품 관리 기능 제공</li>
@@ -75,7 +81,7 @@ const Project = () => {
                             {!isPlaying[1] && <div className="play-overlay">▶</div>}
                         </div>
                         <div className="project-content">
-                        <h3>꼬박꼬박</h3>
+                        <h3>💡꼬박꼬박</h3>
                             <p className="pj-desc">시간 관리와 작은 도전을 통해 건강한 습관 형성을 지원하는 플랫폼 개발</p>
                             <ul>
                                 <li>도전 기록 및 목표 공유로 상호 동기부여 유도</li>

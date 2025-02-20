@@ -30,6 +30,14 @@ const SideNav = ({ darkMode }) => {
           </a>
         </li>
         <li>
+          <a href="#skills" onClick={(e) => handleScroll(e, "skills")}>
+            <img
+              src={darkMode ? "/images/tool-dark.png" : "/images/tool.png"}
+              alt="Skills"
+            />
+          </a>
+        </li>
+        <li>
           <a href="#project" onClick={(e) => handleScroll(e, "project")}>
             <img
               src={darkMode ? "/images/project-dark.png" : "/images/project.png"}

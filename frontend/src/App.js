@@ -3,8 +3,9 @@ import "./App.css";
 import DarkMode from "./components/DarkMode";
 import Home from "./pages/Home"; 
 import AboutMe from "./pages/AboutMe";
+import Skills from "./pages/Skill";
 import Project from "./pages/Project";
-import SideNav from "./components/Navbar/SideNav"; // ✅ SideNav에도 다크 모드 전달
+import SideNav from "./components/Navbar/SideNav"; //SideNav에도 다크 모드 전달
 
 function App() {
   // 로컬 스토리지에서 다크 모드 상태 불러오기
@@ -24,6 +25,7 @@ function App() {
       <div className="main-content">
         <section id="home"><Home /></section>
         <section id="about"><AboutMe /></section>
+        <section id="skills"><Skills /></section>
         <section id="project"><Project /></section>
       </div>
     </div>

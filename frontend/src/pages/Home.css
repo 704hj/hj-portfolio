@@ -1,35 +1,66 @@
+/* 전체 페이지 가로 스크롤 방지 */
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* 컨테이너 설정 */
 .home-container {
   display: flex;
-  height: 113vh;
   align-items: center;
   justify-content: space-between;
-  position: relative;
-  
+  height: 100vh; /* 화면 높이 꽉 차게 */
+  width: 100vw;
+  max-width: 100%;
+  padding: 0 5vw;
+  overflow: hidden;
 }
 
-/* 왼쪽 텍스트 스타일 */
+/* 왼쪽 텍스트 박스 */
 .text-box {
+  font-size: clamp(10px, 1.2vw, 18px);
+  max-width: 40%;
+  z-index: 2;
+  padding-left: 3%;
+}
 
-
-  font-size: clamp(16px, 1vw, 32px); 
-} 
-
-/* src/pages/Home.css */
+/* 이미지 컨테이너 */
 .image-container {
-  position: absolute;
-  right: 0;
-  width: 60vw;
-  height: 60vw;
+  position: relative;
+  width: 60%; 
+  height: 60vw; /* 화면 높이 꽉 채우기 */
   background-size: cover;
   background-position: center;
+  overflow: hidden;
+  filter: brightness(1.2) opacity(0.7);
 }
 
 
-/* 뿌연 효과 */
-.overlay {
-  position: absolute;
-  right: 0;
-  width: 60vw;
-  height: 60vw;
-  background: rgba(255, 255, 255, 0.5); /* 흰색 반투명 */
+/* ✅ 반응형 조정 (모바일) */
+@media (max-width: 768px) {
+  .home-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5vh 5vw 5vh 10vw; /* ✅ 왼쪽 패딩 추가 */
+    height: 100vh;
+  }
+
+
+
+  .text-box {
+    max-width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .image-container {
+    width: 100%;
+    height: 50vh;
+    background-size: cover; /* 화면을 꽉 채우도록 */
+    background-position: center; /* 💡 이미지를 가운데 정렬 */
+    background-repeat: no-repeat;
+  }
 }
