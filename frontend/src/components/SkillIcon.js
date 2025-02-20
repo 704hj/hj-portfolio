@@ -14,7 +14,7 @@ const SkillIcon = ({ skill }) => {
       {hovered && (
         <div className="skill-description">
           <strong>{skill.name}</strong>
-          <p>{skill.description}</p>
+          <ul>{skill.description}</ul>
         </div>
       )}
     </div>
