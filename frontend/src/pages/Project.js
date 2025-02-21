@@ -26,7 +26,6 @@ const Project = () => {
             <SubTitle text={<>
                             <p>직접 기획하고 개발한 프로젝트입니다.</p>
                              <p>새로운 기술을 적용하며 기능을 구현하고, 고민하며 완성했습니다.</p>
-                             <p>프로젝트의 제목을 클릭하시면 해당 노션으로 이동합니다.</p>
                             </>} />
 
 
@@ -42,10 +41,18 @@ const Project = () => {
                             {!isPlaying[0] && <div className="play-overlay">▶</div>}
                         </div>
                         <div className="project-content">
-                        <a href="https://www.notion.so/Portfolio-1a08913a4d2780039ee8d6dc8cf1482b" target="_blank" rel="noopener noreferrer">
-                            <span role="img" aria-label="lightbulb">💡</span> React 기반의 웹 포트폴리오
-                        </a>
-                            <p className="pj-desc">React의 컴포넌트 구조를 이해하여 웹 포트폴리오를 제작했습니다.</p>
+                            <span role="img" aria-label="lightbulb">💡</span> 
+                            <strong>React 기반의 웹 포트폴리오</strong>
+                            <p className="pj-desc">
+                                React의 컴포넌트 구조를 이해하여 웹 포트폴리오를 제작했습니다.
+                            </p>
+                            <p>
+                                <a href="https://www.notion.so/Portfolio-1a08913a4d2780039ee8d6dc8cf1482b" 
+                                target="_blank" 
+                                rel="noopener noreferrer">
+                                    <span className="notion-link" role="img" aria-label="arrow">➡️ 노션으로 이동하기</span> 
+                                </a>
+                            </p>
                             <ul>
                                 <li>useState & useEffect를 활용한 다크 모드 상태 관리</li>
                                 <li>localStorage를 사용하여 다크 모드 설정 저장 및 유지</li>
@@ -64,10 +71,15 @@ const Project = () => {
                             {!isPlaying[1] && <div className="play-overlay">▶</div>}
                         </div>
                         <div className="project-content">
-                        <a href="https://www.notion.so/Deeply-1848913a4d27805eb433df632ba7a05b" target="_blank" rel="noopener noreferrer">
-                            <span role="img" aria-label="lightbulb">💡</span> Deeply
-                        </a>
+                            <span role="img" aria-label="lightbulb">💡</span> <strong>Deeply</strong>
                             <p className="pj-desc">아티스트와 팬이 소통하며 유대감을 형성하는 커뮤니티 플랫폼 개발</p>
+                            <p>
+                                <a href="https://www.notion.so/Deeply-1848913a4d27805eb433df632ba7a05b" 
+                                target="_blank" 
+                                rel="noopener noreferrer">
+                                    <span className="notion-link" role="img" aria-label="arrow">➡️ 노션으로 이동하기</span> 
+                                </a>
+                            </p>
                             <ul>
                                 <li>그룹별 콘텐츠 및 상품 관리 기능 제공</li>
                                 <li>팬덤 맞춤형 서비스 제공</li>
@@ -86,10 +98,15 @@ const Project = () => {
                             {!isPlaying[2] && <div className="play-overlay">▶</div>}
                         </div>
                         <div className="project-content">
-                        <a href="https://www.notion.so/Portfolio-1a08913a4d2780039ee8d6dc8cf1482b" target="_blank" rel="noopener noreferrer">
-                            <span role="img" aria-label="lightbulb">💡</span> 꼬박꼬박
-                        </a>
+                            <span role="img" aria-label="lightbulb">💡</span> <strong>꼬박꼬박</strong>
                             <p className="pj-desc">시간 관리와 작은 도전을 통해 건강한 습관 형성을 지원하는 플랫폼 개발</p>
+                            <p>
+                                <a href="https://www.notion.so/Portfolio-1a08913a4d2780039ee8d6dc8cf1482b" 
+                                target="_blank" 
+                                rel="noopener noreferrer">
+                                    <span className="notion-link" role="img" aria-label="arrow">➡️ 노션으로 이동하기</span> 
+                                </a>
+                            </p>
                             <ul>
                                 <li>도전 기록 및 목표 공유로 상호 동기부여 유도</li>
                                 <li>지속적인 습관 형성을 위한 리워드 시스템 제공</li>

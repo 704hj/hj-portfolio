@@ -101,4 +101,8 @@
   line-height: 2.5;
 }
 
+.notion-link{
+  font-size: clamp(10px, 0.9vw, 14px);
+}
+
  
