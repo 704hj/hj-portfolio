@@ -41,8 +41,8 @@ const techStack = [
     image: `${process.env.PUBLIC_URL}/images/skills/python.svg`,
     description: (
       <ul>
-        <li>기본 문법(List, Dict, Set)과 제어문 구조를 이해하여 간단한 데이터 처리 자동화 스크립트 작성</li>
-        <li>ChatGPT API 동작 원리를 익혀 텍스트·음성 변환(Whisper, gTTs) 및 챗봇 프로토타입 구현</li>
+        <li>기본 문법(List, Dict, Set)과 제어문 구조를 이해하여 간단한 스크립트 작성</li>
+        <li>ChatGPT API 동작 원리를 익혀 텍스트·음성 변환 및 챗봇 프로토타입 구현</li>
       </ul>
     )
   },

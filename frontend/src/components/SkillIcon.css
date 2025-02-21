@@ -20,19 +20,29 @@
   
   .skill-description {
     position: absolute;
-    bottom: -50px;
+    bottom: -100%; /* 아이콘 바로 아래 정렬 */
+    left: 50%;
+    transform: translateX(-50%); /* 가운데 정렬 */
     width: 140px;
     background: rgba(0, 0, 0, 0.8);
     color: white;
     text-align: center;
     padding: 8px;
     border-radius: 5px;
-    font-size: 0.8rem;
+    font-size: clamp(14px, 1vw, 18px);
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
-  }
+}
   
   .skill-icon-container:hover .skill-description {
     opacity: 1;
   }
   
+  @media (max-width: 768px) {
+    .skill-description {
+      font-size: 8px !important; /* 모바일에서는 고정 */
+      line-height: 2 !important;
+    }
+
+    
+}
