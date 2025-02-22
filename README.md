@@ -1,5 +1,6 @@
 ![메인 화면](images/main.png)  
-➡️[HJ-Portfolio 웹 주소](https://hj-portfoli0.netlify.app/)  
+➡️[HJ-Portfolio 웹 주소](https://hj-portfoli0.netlify.app/) 
+➡️[프로젝트 일지](https://www.notion.so/HJ-Portfolio-1a08913a4d2780039ee8d6dc8cf1482b)  
 
 </br></br>
 
@@ -109,8 +110,4 @@
   - 단순히 화면 크기를 조정하는 것이 아닌, 사용자 경험(UX)을 고려한 레이아웃과 동적인 요소들을 함께 설계하는 과정이 필요했음  
   - 미디어 쿼리와 CSS Flex/Grid를 조합하여 다양한 화면 크기에 대응  
   - 모바일, 태블릿, PC 화면에서 디자인이 무너지지 않도록 여러 번 테스트하고 조정  
-
-</br></br>
-
-➡️[프로젝트 일지](https://www.notion.so/HJ-Portfolio-1a08913a4d2780039ee8d6dc8cf1482b)  
 
