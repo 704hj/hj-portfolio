@@ -46,18 +46,25 @@ const Project = () => {
                             <p className="pj-desc">
                                 React의 컴포넌트 구조를 이해하여 웹 포트폴리오를 제작했습니다.
                             </p>
-                            <p>
-                                <a href="https://www.notion.so/Portfolio-1a08913a4d2780039ee8d6dc8cf1482b" 
-                                target="_blank" 
-                                rel="noopener noreferrer">
-                                    <span className="notion-link" role="img" aria-label="arrow">➡️ 노션으로 이동하기</span> 
-                                </a>
-                            </p>
                             <ul>
                                 <li>useState & useEffect를 활용한 다크 모드 상태 관리</li>
                                 <li>localStorage를 사용하여 다크 모드 설정 저장 및 유지</li>
                                 <li>미디어 쿼리를 활용한 반응형 웹 디자인 적용</li>
                             </ul>
+                            <p>
+                                <a href="https://www.notion.so/Portfolio-1a08913a4d2780039ee8d6dc8cf1482b" 
+                                target="_blank" 
+                                rel="noopener noreferrer">
+                                    <span className="notion-link" role="img" aria-label="arrow">➡️ Notion</span> 
+                                </a>
+                            </p>
+                            <p>
+                                <a href="https://github.com/704hj/hj-portfolio/tree/main" 
+                                target="_blank" 
+                                rel="noopener noreferrer">
+                                    <span className="notion-link" role="img" aria-label="arrow">➡️ Git Hub</span> 
+                                </a>
+                            </p>
                         </div>
                     </li>
 
@@ -73,18 +80,25 @@ const Project = () => {
                         <div className="project-content">
                             <span role="img" aria-label="lightbulb">💡</span> <strong>Deeply</strong>
                             <p className="pj-desc">아티스트와 팬이 소통하며 유대감을 형성하는 커뮤니티 플랫폼 개발</p>
-                            <p>
-                                <a href="https://www.notion.so/Deeply-1848913a4d27805eb433df632ba7a05b" 
-                                target="_blank" 
-                                rel="noopener noreferrer">
-                                    <span className="notion-link" role="img" aria-label="arrow">➡️ 노션으로 이동하기</span> 
-                                </a>
-                            </p>
                             <ul>
                                 <li>그룹별 콘텐츠 및 상품 관리 기능 제공</li>
                                 <li>팬덤 맞춤형 서비스 제공</li>
                                 <li>팬 커뮤니티 활성화를 통한 지속적인 팬 활동 지원</li>
                             </ul>
+                            <p>
+                                <a href="https://www.notion.so/Deeply-1848913a4d27805eb433df632ba7a05b" 
+                                target="_blank" 
+                                rel="noopener noreferrer">
+                                    <span className="notion-link" role="img" aria-label="arrow">➡️ Notion</span> 
+                                </a>
+                            </p>
+                            <p>
+                                <a href="https://github.com/704hj/Deeply" 
+                                target="_blank" 
+                                rel="noopener noreferrer">
+                                    <span className="notion-link" role="img" aria-label="arrow">➡️ Git Hub</span> 
+                                </a>
+                            </p>
                         </div>
                     </li>
 
@@ -117,9 +131,8 @@ const Project = () => {
                                 <a href="https://github.com/704hj/ChallengeWithMe/tree/main" 
                                 target="_blank" 
                                 rel="noopener noreferrer">
-                                    <span className="notion-link" role="img" aria-label="arrow">➡️ GitHub</span> 
+                                    <span className="notion-link" role="img" aria-label="arrow">➡️ Git Hub</span> 
                                 </a>
-
                             </p>
                         </div>
                     </li>
