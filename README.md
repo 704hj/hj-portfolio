@@ -37,8 +37,10 @@
 - **개발 환경**  
   - **OS** : Windows 11  
   - **Service System** : React.js  
-  - **배포 환경** : Netlify (CI/CD 자동화 배포)  
+  - **배포 환경** : Netlify (CI/CD 자동화 배포)
 
+    </br></br>
+    
 ## 😊 구현 기능
 
 **1. 메인 페이지**  
