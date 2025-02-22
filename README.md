@@ -1,5 +1,6 @@
 ![메인 화면](images/main.png)  
 ➡️[HJ-Portfolio 웹 주소](https://hj-portfoli0.netlify.app/) 
+</br>
 ➡️[프로젝트 일지](https://www.notion.so/HJ-Portfolio-1a08913a4d2780039ee8d6dc8cf1482b)  
 
 </br></br>
