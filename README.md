@@ -6,7 +6,7 @@
 ## 📑 목차  
 📖 [프로젝트 개요](https://github.com/704hj/hj-portfolio/blob/main/README.md#-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B0%9C%EC%9A%94)</br>
 ⚙️ [개발환경 및 기술 스택](https://github.com/704hj/hj-portfolio/blob/main/README.md#%EF%B8%8F-%EA%B0%9C%EB%B0%9C%ED%99%98%EA%B2%BD-%EB%B0%8F-%EA%B8%B0%EC%88%A0-%EC%8A%A4%ED%83%9D)</br>
-😊 [구현 기능](https://github.com/704hj/hj-portfolio/blob/main/README.md#-%EB%8B%B4%EB%8B%B9-%EA%B8%B0%EB%8A%A5)</br>
+😊 [구현 기능](https://github.com/704hj/hj-portfolio/blob/main/README.md#-%EA%B5%AC%ED%98%84-%EA%B8%B0%EB%8A%A5)</br>
 💡 [문제 해결](https://github.com/704hj/hj-portfolio/blob/main/README.md#-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0)</br>
 ❓ [느낀 점](https://github.com/704hj/hj-portfolio/blob/main/README.md#-%EB%8A%90%EB%82%80-%EC%A0%90)</br>
 
@@ -42,7 +42,7 @@
 ## 😊 구현 기능
 
 **1. 메인 페이지**  
-  -[메인](https://github.com/704hj/hj-portfolio/blob/main/images/main.gif?raw=true)
+  ![메인](https://github.com/704hj/hj-portfolio/blob/main/images/main.gif?raw=true)
   - 전체적인 UI/UX 디자인을 직접 기획하고 개발  
   - React의 컴포넌트 구조를 이해하고, 컴포넌트 단위로 UI 설계  
   - 기술 아이콘에 hover 효과 추가  
@@ -52,7 +52,7 @@
 </br>
 
 **2. 사이드 네비게이션바**  
-  -[스크롤](https://github.com/704hj/hj-portfolio/blob/main/images/scroll.gif?raw=true)
+  ![스크롤](https://github.com/704hj/hj-portfolio/blob/main/images/scroll.gif?raw=true)
   - Smooth Scroll 적용으로 각 섹션(홈, 기술 스택, 프로젝트 등) 간 부드러운 이동  
    
 
@@ -68,7 +68,7 @@
 </br>
 
 **4. 다크모드 기능**  
-  -[다크모드](https://github.com/704hj/hj-portfolio/blob/main/images/darkmode.gif?raw=true)
+  ![다크모드](https://github.com/704hj/hj-portfolio/blob/main/images/darkmode.gif?raw=true)
   - 다크모드 적용 및 밝은 색 아이콘 자동 변경 기능 
   - useState, useEffect를 활용하여 다크모드 상태 관리  
   - LocalStorage를 활용하여 새로고침 후에도 다크모드 설정 유지  
