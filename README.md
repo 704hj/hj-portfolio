@@ -4,11 +4,11 @@
 </br></br>
 
 ## 📑 목차  
-📖 [프로젝트 개요]()</br>
-⚙️ [개발환경 및 기술 스택](https://github.com/704hj/HJ-Portfolio/tree/main#%EF%B8%8F-%EA%B0%9C%EB%B0%9C%ED%99%98%EA%B2%BD-%EB%B0%8F-%EA%B8%B0%EC%88%A0-%EC%8A%A4%ED%83%9D)</br>
-😊 [담당 기능](https://github.com/704hj/HJ-Portfolio/tree/main#-%EB%8B%B4%EB%8B%B9-%EA%B8%B0%EB%8A%A5)</br>
-💡 [문제 해결](https://github.com/704hj/HJ-Portfolio/tree/main#-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0)</br>
-❓ [느낀 점](https://github.com/704hj/HJ-Portfolio/tree/main#-%EB%8A%90%EB%82%80-%EC%A0%90)</br>
+📖 [프로젝트 개요](https://github.com/704hj/hj-portfolio/blob/main/README.md#-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B0%9C%EC%9A%94)</br>
+⚙️ [개발환경 및 기술 스택](https://github.com/704hj/hj-portfolio/blob/main/README.md#%EF%B8%8F-%EA%B0%9C%EB%B0%9C%ED%99%98%EA%B2%BD-%EB%B0%8F-%EA%B8%B0%EC%88%A0-%EC%8A%A4%ED%83%9D)</br>
+😊 [구현 기능](https://github.com/704hj/hj-portfolio/blob/main/README.md#-%EB%8B%B4%EB%8B%B9-%EA%B8%B0%EB%8A%A5)</br>
+💡 [문제 해결](https://github.com/704hj/hj-portfolio/blob/main/README.md#-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0)</br>
+❓ [느낀 점](https://github.com/704hj/hj-portfolio/blob/main/README.md#-%EB%8A%90%EB%82%80-%EC%A0%90)</br>
 
 </br></br>
 
@@ -39,17 +39,7 @@
   - **Service System** : React.js  
   - **배포 환경** : Netlify (CI/CD 자동화 배포)  
 
-- **사용 기술**  
-    ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white)
-    ![CSS3](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white)
-    ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-    ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white)
-    ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-    ![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
-
-</br></br>
-
-## 😊 담당 기능
+- **사현 기능
 
 **1. 메인 페이지**  
   - 전체적인 UI/UX 디자인을 직접 기획하고 개발  
