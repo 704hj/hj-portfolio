@@ -100,18 +100,27 @@ const Project = () => {
                         <div className="project-content">
                             <span role="img" aria-label="lightbulb">💡</span> <strong>꼬박꼬박</strong>
                             <p className="pj-desc">시간 관리와 작은 도전을 통해 건강한 습관 형성을 지원하는 플랫폼 개발</p>
-                            <p>
-                                <a href="https://www.notion.so/1718913a4d278138bc09c80c79a2252c" 
-                                target="_blank" 
-                                rel="noopener noreferrer">
-                                    <span className="notion-link" role="img" aria-label="arrow">➡️ 노션으로 이동하기</span> 
-                                </a>
-                            </p>
+                            
                             <ul>
                                 <li>도전 기록 및 목표 공유로 상호 동기부여 유도</li>
                                 <li>지속적인 습관 형성을 위한 리워드 시스템 제공</li>
                                 <li>커뮤니티 기반으로 긍정적인 변화를 함께 만들어가는 환경 조성</li>
                             </ul>
+                            <p>
+                                <a href="https://www.notion.so/1718913a4d278138bc09c80c79a2252c" 
+                                target="_blank" 
+                                rel="noopener noreferrer">
+                                    <span className="notion-link" role="img" aria-label="arrow">➡️ Notion </span> 
+                                </a> 
+                            </p>
+                            <p>
+                                <a href="https://github.com/704hj/ChallengeWithMe/tree/main" 
+                                target="_blank" 
+                                rel="noopener noreferrer">
+                                    <span className="notion-link" role="img" aria-label="arrow">➡️ GitHub</span> 
+                                </a>
+
+                            </p>
                         </div>
                     </li>
                 </ul>
