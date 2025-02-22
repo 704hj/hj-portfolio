@@ -42,21 +42,24 @@
 ## 😊 구현 기능
 
 **1. 메인 페이지**  
+  -[메인](https://github.com/704hj/hj-portfolio/blob/main/images/main.gif?raw=true)
   - 전체적인 UI/UX 디자인을 직접 기획하고 개발  
   - React의 컴포넌트 구조를 이해하고, 컴포넌트 단위로 UI 설계  
-  - 사이드 네비게이션바 구현  
-  - Smooth Scroll 적용으로 각 섹션(홈, 기술 스택, 프로젝트 등) 간 부드러운 이동  
-  - 다크모드 적용 및 밝은 색 아이콘 자동 변경 기능  
+  - 기술 아이콘에 hover 효과 추가  
+  - 특정 기술에 마우스를 올리면 해당 기술의 활용 사례를 표시
+   
 
 </br>
 
-**2. 기술 스택 페이지**  
-  - 기술 아이콘에 hover 효과 추가  
-  - 특정 기술에 마우스를 올리면 해당 기술의 활용 사례를 표시  
+**2. 사이드 네비게이션바**  
+  -[스크롤](https://github.com/704hj/hj-portfolio/blob/main/images/scroll.gif?raw=true)
+  - Smooth Scroll 적용으로 각 섹션(홈, 기술 스택, 프로젝트 등) 간 부드러운 이동  
+   
 
 </br>
 
 **3. 프로젝트 페이지**  
+
   - 각 프로젝트를 동영상으로 기록하여 삽입  
   - React를 활용하여 동영상 실행 가능하도록 구성  
   - 기존 이미지 삽입 방식 대신 <video> 태그를 활용하여 동영상 재생  
@@ -65,6 +68,8 @@
 </br>
 
 **4. 다크모드 기능**  
+  -[다크모드](https://github.com/704hj/hj-portfolio/blob/main/images/darkmode.gif?raw=true)
+  - 다크모드 적용 및 밝은 색 아이콘 자동 변경 기능 
   - useState, useEffect를 활용하여 다크모드 상태 관리  
   - LocalStorage를 활용하여 새로고침 후에도 다크모드 설정 유지  
   - UI 디자인을 고려하여 가독성이 좋은 색상 조합 적용  
