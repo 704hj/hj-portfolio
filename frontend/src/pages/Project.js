@@ -42,7 +42,7 @@ const Project = () => {
                         </div>
                         <div className="project-content">
                             <span role="img" aria-label="lightbulb">💡</span> 
-                            <strong>React 기반의 웹 포트폴리오</strong>
+                            <strong>React로 구현한 웹 포트폴리오</strong>
                             <p className="pj-desc">
                                 React의 컴포넌트 구조를 이해하여 웹 포트폴리오를 제작했습니다.
                             </p>
@@ -79,7 +79,7 @@ const Project = () => {
                         </div>
                         <div className="project-content">
                             <span role="img" aria-label="lightbulb">💡</span> <strong>Deeply</strong>
-                            <p className="pj-desc">아티스트와 팬이 소통하며 유대감을 형성하는 커뮤니티 플랫폼 개발</p>
+                            <p className="pj-desc">Spring boot로 구현한 아티스트와 팬의 소통을 지원하는 커뮤니티 플랫폼 개발</p>
                             <ul>
                                 <li>그룹별 콘텐츠 및 상품 관리 기능 제공</li>
                                 <li>팬덤 맞춤형 서비스 제공</li>
@@ -96,7 +96,7 @@ const Project = () => {
                                 <a href="https://github.com/704hj/Deeply" 
                                 target="_blank" 
                                 rel="noopener noreferrer">
-                                    <span className="notion-link" role="img" aria-label="arrow">➡️ Git Hub</span> 
+                                    <span className="notion-link" role="img" aria-label="arrow">➡️ Git Hub public으로 전환 중...</span> 
                                 </a>
                             </p>
                         </div>
@@ -113,7 +113,7 @@ const Project = () => {
                         </div>
                         <div className="project-content">
                             <span role="img" aria-label="lightbulb">💡</span> <strong>꼬박꼬박</strong>
-                            <p className="pj-desc">시간 관리와 작은 도전을 통해 건강한 습관 형성을 지원하는 플랫폼 개발</p>
+                            <p className="pj-desc">Servlet과 JSP로 구현한 건강한 습관 형성 지원 플랫폼 개발</p>
                             
                             <ul>
                                 <li>도전 기록 및 목표 공유로 상호 동기부여 유도</li>
