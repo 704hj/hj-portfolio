@@ -96,7 +96,7 @@ const Project = () => {
                                 <a href="https://github.com/704hj/Deeply" 
                                 target="_blank" 
                                 rel="noopener noreferrer">
-                                    <span className="notion-link" role="img" aria-label="arrow">➡️ Git Hub public으로 전환 중...</span> 
+                                    <span className="notion-link" role="img" aria-label="arrow">➡️ Git Hub</span> 
                                 </a>
                             </p>
                         </div>
