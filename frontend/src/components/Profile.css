@@ -18,8 +18,19 @@
 .profile-text {
     font-size: clamp(11px, 1.2vw, 20px);
     line-height: 2;
-
   }
+
+  .links {
+    display: flex;
+    gap: 2%;
+  }
+  
+  .links img {
+    width: 2vw;
+    height: auto;
+    min-width: 15px;
+  }
+
 
 /* ✅ 반응형 조정 (모바일) */
 @media (max-width: 768px) {
@@ -36,4 +47,10 @@
         height: 18vw;
         border-radius: 50%;
     } 
+
+    .links {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
   }

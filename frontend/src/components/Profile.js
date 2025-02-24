@@ -13,6 +13,15 @@ const Profile = () => {
         새로운 기술을 배우고 도전하는 것을 즐깁니다.<br />
         문제 해결을 위한 끈기와 실행력을 강점으로 삼아 개발에 임합니다.<br />
         <h4>ph. 010-2368-5240 <br />  email. 0430hj@gmail.com</h4>
+          <div className="links">
+            <a href="https://www.notion.so/HJ-1718913a4d278060a0bfc5088fef2bf0" target="_blank" rel="noopener noreferrer">
+              <img src="../images/notion.svg" alt="Notion 로고" />
+            </a>
+            <a href="https://github.com/704hj" target="_blank" rel="noopener noreferrer">
+              <img src="../images/git.png" alt="git 로고" />
+            </a>
+          </div>
+
         </p>
       </div>
     </div>
