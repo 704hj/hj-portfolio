@@ -24,8 +24,8 @@ const Project = () => {
         <div className="project-container">
             <Title title="Projects" />
             <SubTitle text={<>
-                            <p>직접 기획하고 개발한 프로젝트입니다.</p>
-                             <p>새로운 기술을 적용하며 기능을 구현하고, 고민하며 완성했습니다.</p>
+                            <p>아이디어를 바탕으로 기획하고 개발한 프로젝트입니다.</p>
+                             <p>기능을 구현하며 다양한 시도를 거듭하고, 끊임없이 고민하며 완성도를 높였습니다.</p>
                             </>} />
 
 
