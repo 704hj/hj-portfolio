@@ -9,7 +9,7 @@ const AboutMe = () => {
     return (
         <div>
         <Title title="About Me" />
-        <SubTitle text="초보개발자로써 너무 설레이는데요. 저를 소개하겠습니다." />
+        <SubTitle text="기술과 함께 성장하는 개발자, 저의 이야기를 시작합니다!" />
         <Profile />
         {/*<Hobbies />*/}
       </div>
