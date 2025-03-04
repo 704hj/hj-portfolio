@@ -168,11 +168,12 @@ const stydyTools = [
     image: `${process.env.PUBLIC_URL}/images/skills/Vue.svg`,
     description: (
       <ul>
-        <li>프론트엔드 : Vue3 + TypeScript + TailwindCSS </li>
-        <li>백엔드 : Python + FastAPI</li>
-        <li>배우지 않은 기술에 대한 도전과 궁금증으로</li>
-        <li>현재 해당 언어들을 공부하면서 기획하고 개발단계의</li>
-        <li>개인 프로젝트 25.02.27~ 진행 중</li>
+        <li>Vue 3 + TypeScript, FastAPI 활용 </li>
+        <li>새로운 기술을 학습하며 프로젝트 진행 중</li>
+        <li>현재 프론트엔드 UI 설계, API 연동을 실험하며</li>
+        <li>실무 적용 가능성을 탐구 중</li>
+        <li>개발하면서 겪는 문제를 해결하고, 실무에서의 </li>
+        <li>활용 가능성을 고려하여 개선하는 과정에 있음</li>
       </ul>
     )
   },
@@ -181,11 +182,12 @@ const stydyTools = [
     image: `${process.env.PUBLIC_URL}/images/skills/TypeScript.svg`,
     description: (
       <ul>
-        <li>프론트엔드 : Vue3 + TypeScript + TailwindCSS </li>
-        <li>백엔드 : Python + FastAPI</li>
-        <li>배우지 않은 기술에 대한 도전과 궁금증으로</li>
-        <li>현재 해당 언어들을 공부하면서 기획하고 개발단계의</li>
-        <li>개인 프로젝트 25.02.27~ 진행 중</li>
+        <li>Vue 3 + TypeScript, FastAPI 활용 </li>
+        <li>새로운 기술을 학습하며 프로젝트 진행 중</li>
+        <li>현재 프론트엔드 UI 설계, API 연동을 실험하며</li>
+        <li>실무 적용 가능성을 탐구 중</li>
+        <li>개발하면서 겪는 문제를 해결하고, 실무에서의 </li>
+        <li>활용 가능성을 고려하여 개선하는 과정에 있음</li>
       </ul>
     )
   },
@@ -194,11 +196,12 @@ const stydyTools = [
     image: `${process.env.PUBLIC_URL}/images/skills/TailwindCSS-Light.svg`,
     description: (
       <ul>
-       <li>프론트엔드 : Vue3 + TypeScript + TailwindCSS </li>
-        <li>백엔드 : Python + FastAPI</li>
-        <li>배우지 않은 기술에 대한 도전과 궁금증으로</li>
-        <li>현재 해당 언어들을 공부하면서 기획하고 개발단계의</li>
-        <li>개인 프로젝트 25.02.27~ 진행 중</li>
+       <li>Vue 3 + TypeScript, FastAPI 활용 </li>
+        <li>새로운 기술을 학습하며 프로젝트 진행 중</li>
+        <li>현재 프론트엔드 UI 설계, API 연동을 실험하며</li>
+        <li>실무 적용 가능성을 탐구 중</li>
+        <li>개발하면서 겪는 문제를 해결하고, 실무에서의 </li>
+        <li>활용 가능성을 고려하여 개선하는 과정에 있음</li>
       </ul>
     )
   },
@@ -207,11 +210,12 @@ const stydyTools = [
     image: `${process.env.PUBLIC_URL}/images/skills/FastAPI.svg`,
     description: (
       <ul>
-        <li>프론트엔드 : Vue3 + TypeScript + TailwindCSS </li>
-        <li>백엔드 : Python + FastAPI</li>
-        <li>배우지 않은 기술에 대한 도전과 궁금증으로</li>
-        <li>현재 해당 언어들을 공부하면서 기획하고 개발단계의</li>
-        <li>개인 프로젝트 25.02.27~ 진행 중</li>
+        <li>Vue 3 + TypeScript, FastAPI 활용 </li>
+        <li>새로운 기술을 학습하며 프로젝트 진행 중</li>
+        <li>현재 프론트엔드 UI 설계, API 연동을 실험하며</li>
+        <li>실무 적용 가능성을 탐구 중</li>
+        <li>개발하면서 겪는 문제를 해결하고, 실무에서의 </li>
+        <li>활용 가능성을 고려하여 개선하는 과정에 있음</li>
       </ul>
     )
   }
@@ -252,7 +256,7 @@ const Skills = () => {
 
          {/* 공부 중인 언어 */}
          <div className="skill-category">
-          <h4>현재 개인 프로젝트 개발 중</h4>
+          <h4>02.27~ 현재 개인 프로젝트 개발 중</h4>
           <div className="skill-list">
             {stydyTools.map((skill, index) => (
               <SkillIcon key={index} skill={skill} />
