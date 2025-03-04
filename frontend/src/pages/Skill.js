@@ -162,6 +162,61 @@ const devTools = [
   }
 ];
 
+const stydyTools = [
+  {
+    name: "Vue3",
+    image: `${process.env.PUBLIC_URL}/images/skills/Vue.svg`,
+    description: (
+      <ul>
+        <li>프론트엔드 : Vue3 + TypeScript + TailwindCSS </li>
+        <li>백엔드 : Python + FastAPI</li>
+        <li>배우지 않은 기술에 대한 도전과 궁금증으로</li>
+        <li>현재 해당 언어들을 공부하면서 기획하고 개발단계의</li>
+        <li>개인 프로젝트 25.02.27~ 진행 중</li>
+      </ul>
+    )
+  },
+  {
+    name: "TypeScript",
+    image: `${process.env.PUBLIC_URL}/images/skills/TypeScript.svg`,
+    description: (
+      <ul>
+        <li>프론트엔드 : Vue3 + TypeScript + TailwindCSS </li>
+        <li>백엔드 : Python + FastAPI</li>
+        <li>배우지 않은 기술에 대한 도전과 궁금증으로</li>
+        <li>현재 해당 언어들을 공부하면서 기획하고 개발단계의</li>
+        <li>개인 프로젝트 25.02.27~ 진행 중</li>
+      </ul>
+    )
+  },
+  {
+    name: "TailwindCSS",
+    image: `${process.env.PUBLIC_URL}/images/skills/TailwindCSS-Light.svg`,
+    description: (
+      <ul>
+       <li>프론트엔드 : Vue3 + TypeScript + TailwindCSS </li>
+        <li>백엔드 : Python + FastAPI</li>
+        <li>배우지 않은 기술에 대한 도전과 궁금증으로</li>
+        <li>현재 해당 언어들을 공부하면서 기획하고 개발단계의</li>
+        <li>개인 프로젝트 25.02.27~ 진행 중</li>
+      </ul>
+    )
+  },
+  {
+    name: "Fast API",
+    image: `${process.env.PUBLIC_URL}/images/skills/FastAPI.svg`,
+    description: (
+      <ul>
+        <li>프론트엔드 : Vue3 + TypeScript + TailwindCSS </li>
+        <li>백엔드 : Python + FastAPI</li>
+        <li>배우지 않은 기술에 대한 도전과 궁금증으로</li>
+        <li>현재 해당 언어들을 공부하면서 기획하고 개발단계의</li>
+        <li>개인 프로젝트 25.02.27~ 진행 중</li>
+      </ul>
+    )
+  }
+];
+
 const Skills = () => {
   return (
     <div id="skills">
@@ -190,6 +245,16 @@ const Skills = () => {
           <h4>개발 & 협업 도구</h4>
           <div className="skill-list">
             {devTools.map((skill, index) => (
+              <SkillIcon key={index} skill={skill} />
+            ))}
+          </div>
+        </div>
+
+         {/* 공부 중인 언어 */}
+         <div className="skill-category">
+          <h4>현재 개인 프로젝트 개발 중</h4>
+          <div className="skill-list">
+            {stydyTools.map((skill, index) => (
               <SkillIcon key={index} skill={skill} />
             ))}
           </div>
