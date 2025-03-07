@@ -1,7 +1,8 @@
 import React from "react";
 import "./Profile.css";
 
-const Profile = () => {
+
+const Profile = ( ) => {
   return (
     <div className="profile-container">
       <img src={`${process.env.PUBLIC_URL}/images/profile.jpg`} alt="프로필" className="profile-image" />
@@ -19,7 +20,8 @@ const Profile = () => {
               <img src="../images/notion.svg" alt="Notion 로고" />
             </a>
             <a href="https://github.com/704hj" target="_blank" rel="noopener noreferrer">
-              <img src="../images/git.png" alt="git 로고" />
+              <img src="../images/github.png" alt="git 로고" />
+              
             </a>
           </div>
         </p>
@@ -27,6 +29,7 @@ const Profile = () => {
     </div>
   );
 };
+
 
 export default Profile;
  
