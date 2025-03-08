@@ -256,7 +256,7 @@ const Skills = () => {
 
          {/* 공부 중인 언어 */}
          <div className="skill-category">
-          <h4>02.27~ 현재 개인 프로젝트 개발 중</h4>
+          <h4>02.27 ~ 현재 개인 프로젝트 개발 중</h4>
           <div className="skill-list">
             {stydyTools.map((skill, index) => (
               <SkillIcon key={index} skill={skill} />
