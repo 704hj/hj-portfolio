@@ -9,7 +9,7 @@ import SideNav from "./components/Navbar/SideNav"; //SideNav에도 다크 모드
 import Footer from "./components/Footer/Footer";
 import ReactGA from "react-ga4"; 
 
-const TRACKING_ID = "G-XXXXXXXXXX"; 
+const TRACKING_ID = "G-LVBZMVETTV"; 
 
 function App() {
   useEffect(() => {
