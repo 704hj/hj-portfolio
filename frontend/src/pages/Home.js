@@ -1,11 +1,14 @@
 import React from "react";
 import "./Home.css";
+import HitCounter from "../components/HitCounter/HitCounter";
 
 const Home = () => {
   const backgroundImageUrl = `${process.env.PUBLIC_URL}/images/me.jpg`;
 
+
   return (
     <div className="home-container">
+      
       {/* 왼쪽 텍스트 */}
       <div className="text-box">
         <h1>Park Hyo joo</h1>
@@ -17,6 +20,7 @@ const Home = () => {
  
       {/* 배경 이미지 & 뿌연 효과 */}
       <div className="image-container" style={{ backgroundImage: `url(${backgroundImageUrl})` }}>
+      <HitCounter />
       </div>
     </div>
   );
