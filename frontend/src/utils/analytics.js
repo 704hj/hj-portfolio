@@ -1,11 +1,10 @@
 import ReactGA from "react-ga4";
 
-const TRACKING_ID = "G-LVBZMVETTV"; 
+const TRACKING_ID = "G-LVBZMVETTV";
 
-export const initGA = () => {
+const initGA = () => {
   ReactGA.initialize(TRACKING_ID);
+  ReactGA.send("pageview"); // 페이지뷰 자동 전송
 };
 
-export const logPageView = () => {
-  ReactGA.send("pageview");
-};
+export default initGA; 

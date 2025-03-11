@@ -7,17 +7,13 @@ import Skills from "./pages/Skill";
 import Project from "./pages/Project";
 import SideNav from "./components/Navbar/SideNav"; //SideNav에도 다크 모드 전달
 import Footer from "./components/Footer/Footer";
-import ReactGA from "react-ga4"; 
-
-const TRACKING_ID = "G-LVBZMVETTV"; 
+import initGA from "./utils/analytics";
 
 function App() {
-  useEffect(() => {
-    ReactGA.initialize(TRACKING_ID);
-    ReactGA.send("pageview");
-  }, []);
+    useEffect(() => {
+      initGA(); //한 줄로 GA 초기화 + 페이지뷰 로깅
+    }, []);
 
-  // 로컬 스토리지에서 다크 모드 상태 불러오기
   const [darkMode, setDarkMode] = useState(
     () => JSON.parse(localStorage.getItem("darkMode")) || false
   );
