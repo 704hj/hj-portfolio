@@ -18,10 +18,12 @@ function App() {
     () => JSON.parse(localStorage.getItem("darkMode")) || false
   );
 
-  // 다크 모드 변경 시 로컬 스토리지에 상태 저장
   useEffect(() => {
-    localStorage.setItem("darkMode", JSON.stringify(darkMode));
+    if (darkMode !== null) {
+      localStorage.setItem("darkMode", JSON.stringify(darkMode));
+    }
   }, [darkMode]);
+  
  
   return (
     <div className={darkMode ? "dark-mode" : "light-mode"}>
