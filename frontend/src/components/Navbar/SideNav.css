@@ -36,7 +36,7 @@
 
 @media (max-width: 375px) {
   .side-nav li {
-    margin-top: 40px; /* 아이콘 간격 증가 */
+    margin-top: 40px; 
     padding-left:2%;
   }
 }
