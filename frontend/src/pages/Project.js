@@ -25,7 +25,8 @@ const Project = () => {
             <Title title="Projects" />
             <SubTitle text={<>
                             <p>아이디어를 바탕으로 기획하고 개발한 프로젝트입니다.</p>
-                             <p>기능을 구현하며 다양한 시도를 거듭하고, 끊임없이 고민하며 완성도를 높였습니다.</p>
+                             <p>기능을 구현하며 다양한 시도를 거듭하고,</p>
+                             <p>끊임없이 고민하며 완성도를 높였습니다.</p>
                             </>} />
 
 
@@ -44,7 +45,7 @@ const Project = () => {
                             <span role="img" aria-label="lightbulb">💡</span> 
                             <strong>React로 구현한 웹 포트폴리오</strong>
                             <p className="pj-desc">
-                                React의 컴포넌트 구조를 이해하여 웹 포트폴리오를 제작했습니다.
+                                React의 컴포넌트 구조를 이해하여 웹 포트폴리오를 제작.
                             </p>
                             <ul>
                                 <li>useState & useEffect를 활용한 다크 모드 상태 관리</li>
@@ -79,7 +80,7 @@ const Project = () => {
                         </div>
                         <div className="project-content">
                             <span role="img" aria-label="lightbulb">💡</span> <strong>Deeply</strong>
-                            <p className="pj-desc">Spring boot로 구현한 아티스트와 팬의 소통을 지원하는 커뮤니티 플랫폼 개발</p>
+                            <p className="pj-desc">Spring boot로 아티스트와 팬의 소통을 지원하는 커뮤니티 플랫폼 개발</p>
                             <ul>
                                 <li>그룹별 콘텐츠 및 상품 관리 기능 제공</li>
                                 <li>팬덤 맞춤형 서비스 제공</li>
@@ -113,7 +114,7 @@ const Project = () => {
                         </div>
                         <div className="project-content">
                             <span role="img" aria-label="lightbulb">💡</span> <strong>꼬박꼬박</strong>
-                            <p className="pj-desc">Servlet과 JSP로 구현한 건강한 습관 형성 지원 플랫폼 개발</p>
+                            <p className="pj-desc">Servlet과 JSP로 건강한 습관 형성 지원 플랫폼 개발</p>
                             
                             <ul>
                                 <li>도전 기록 및 목표 공유로 상호 동기부여 유도</li>

@@ -88,7 +88,7 @@
 
 
 .pj-desc {
-  font-size: clamp(12px, 1vw, 18px);
+  font-size: clamp(11px, 1vw, 18px);
   margin-bottom: 10px;
 }
 
@@ -97,7 +97,7 @@
 }
 
 .project-content ul li {
-  font-size: clamp(0.8rem, 1.2vw, 0.9rem);
+  font-size: clamp(10px, 0.9vw, 16px);
   line-height: 2.5;
 }
 
