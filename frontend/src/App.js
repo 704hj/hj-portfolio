@@ -28,7 +28,7 @@ function App() {
   return (
     <div className={darkMode ? "dark-mode" : "light-mode"}>
       <DarkMode darkMode={darkMode} setDarkMode={setDarkMode} />
-      <SideNav darkMode={darkMode} /> {/* 다크 모드 상태를 SideNav로 전달 */}
+      <SideNav darkMode={darkMode} /> 
       <div className="main-content">
         <section id="home"><Home /></section>
         <section id="about"><AboutMe /></section>
