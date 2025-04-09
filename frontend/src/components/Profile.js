@@ -8,7 +8,7 @@ const Profile = ( ) => {
       <img src={`${process.env.PUBLIC_URL}/images/profile.jpg`} alt="프로필" className="profile-image" />
 
       <div className="profile-text">
-        <h4>"도전과 커뮤니케이션을 바탕으로,<br />   함께 성장하는 개발자가 되고싶습니다."</h4>
+        <h4>"도전과 커뮤니케이션을 바탕으로,<br />  함께 성장하는 개발자가 되고싶습니다."</h4>
         <p>
         협업을 중요하게 생각하며,<br />
         새로운 기술을 배우고 도전하는 것을 즐깁니다.<br />
