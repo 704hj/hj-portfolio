@@ -39,7 +39,7 @@
     width: clamp(50px, 6vw, 70px);
     height: clamp(50px, 6vw, 70px);
     background-color: #e5f0fa;
-    border-radius: 50%;
+    border-radius: 45%;
     display: flex;
     justify-content: center;
     align-items: center;
