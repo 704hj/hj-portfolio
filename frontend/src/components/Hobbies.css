@@ -46,10 +46,9 @@
     margin-bottom: clamp(5px, 1vw, 10px);
 }
 
-/* 반응형 설정 - 화면이 작아지면 2개씩 정렬 */
 @media (max-width: 768px) {
     .hobbies-grid {
-        grid-template-columns: repeat(2, 1fr); /* 태블릿 이하에서는 2개씩 배치 */
+        grid-template-columns: repeat(2, 1fr); 
     }
 }
 
