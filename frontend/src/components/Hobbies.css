@@ -43,7 +43,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: clamp(5px, 1vw, 10px);
+    margin-bottom: clamp(6px, 1vw, 10px);
 }
 
 @media (max-width: 768px) {
